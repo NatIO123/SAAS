@@ -1,6 +1,6 @@
 container{
   box-sizing: content-box;
-  position: fixed;
+  position: relative;
   size: 100px;
   padding-bottom: 500px;
 

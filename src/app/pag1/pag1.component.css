@@ -1,0 +1,62 @@
+container{
+  box-sizing: content-box;
+  position: fixed;
+  size: 100px;
+  padding-bottom: 500px;
+
+
+
+
+}
+
+body{
+  background: #e65c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ede9d9,#ede9d9,#ede9d9,#ede9d9, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img{
+  max-width:10% ;
+  max-height: 10%;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-preview {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.photo-canvas {
+  display: none; /* Solo se mostrará cuando se capture una foto */
+}
+body {
+  background-color: white;
+}
+
+#app {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#video {
+  background-color: #000000;
+}
+
+#canvas {
+  display: none;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
